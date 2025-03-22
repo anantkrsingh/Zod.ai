@@ -74,7 +74,7 @@ export default function Home() {
               </span>
             </p>
           </div>
-          <Button asChild className="mt-10 bg-black text-white" variant={"secondary"}>
+          <Button asChild className="mt-10 ">
             <Link href={"/dashboard"}>Get started</Link>
           </Button>
         </div>
