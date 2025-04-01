@@ -17,7 +17,7 @@ async function ChatToFilePage({ params: { id } }: { params: { id: string } }) {
   const url = ref.data()?.downloadUrl;
 
   return (
-    <div className="flex flex-col lg:flex-row h-screen w-full overflow-hidden">
+    <div className="flex flex-col lg:flex-row h-full w-full overflow-hidden">
       {/* Chat Section */}
       <div className="order-1 lg:order-2 w-full lg:w-1/2 h-1/2 lg:h-full overflow-y-auto">
         <Chat id={id} />
