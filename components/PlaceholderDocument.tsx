@@ -4,9 +4,9 @@ import { Button } from "./ui/button";
 import { useRouter } from "next/navigation";
 
 function PlaceholderDocument() {
-    const router = useRouter()
+  const router = useRouter();
   function handleClick(): void {
-    router.push("/dashboard/upload")
+    router.push("/dashboard/upload");
   }
 
   return (
